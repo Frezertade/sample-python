@@ -7,3 +7,4 @@ MarkupSafe==1.1.1
 Werkzeug==1.0.1
 PyMongo==3.11.4
 Flask-Cors==3.0.10
+bson==0.5.10
