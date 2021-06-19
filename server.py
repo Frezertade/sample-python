@@ -42,4 +42,4 @@ def get_all_twitter():
 
 
 if __name__:
-    app.run(debug=True)
+    app.run()
