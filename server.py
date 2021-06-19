@@ -42,4 +42,4 @@ def get_all_twitter():
 
 
 if __name__:
-    app.run(port=8787, debug=True)
+    app.run(debug=True)
