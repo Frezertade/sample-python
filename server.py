@@ -4,7 +4,7 @@ from bson.json_util import dumps, loads
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+
 # myclient = pymongo.MongoClient(
 #     "mongodb://fre:frezer@cluster0-shard-00-00.7xkdf.mongodb.net:27017,cluster0-shard-00-01.7xkdf.mongodb.net:27017,cluster0-shard-00-02.7xkdf.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-11kjk0-shard-0&authSource=admin&retryWrites=true&w=majority")
 # mydb = myclient["mydatabase"]
