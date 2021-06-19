@@ -43,5 +43,4 @@ app = Flask(__name__)
 def welcome():
     return "welcome to our api"
 
-if __name__:
-    app.run()
+
